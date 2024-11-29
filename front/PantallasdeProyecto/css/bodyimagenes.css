@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 85vh; /* Ocupa toda la altura de la ventana */
+}
+
+.imagen {
+    width: 50%; /* Cada imagen ocupa el 50% del ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen al contenedor sin deformarla */
+    transform: translate(1%, -73%);
+}
